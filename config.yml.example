@@ -1,0 +1,16 @@
+telegram:
+  bot_token: ?
+  chat_id: ?
+
+twitter:
+  access_token: ?
+  access_token_secret: ?
+  api_key: ?
+  api_secret: ?
+  max_results: '10'
+  
+queries:
+  query1:
+    query: "Your query here -filter:retweets"
+    since_id: '1425759736600000000'
+
