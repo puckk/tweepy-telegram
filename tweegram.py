@@ -42,4 +42,4 @@ for query in queries:
 if queries:
     with open("config.yml", 'w') as yaml_file:
         yaml_file.write( yaml.dump(cfg, default_flow_style=False))
-
+        yaml_file.close()
